@@ -1,0 +1,26 @@
+{
+    "name": "backend-exam-api",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "mocha --recursive --exit",
+        "start": "nodemon index.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.17.1",
+        "faker": "^5.5.3",
+        "joi": "^17.4.0",
+        "knex": "^0.95.6",
+        "mysql": "^2.18.1",
+        "nodemon": "^2.0.7"
+    },
+    "devDependencies": {
+        "chai": "^4.3.4",
+        "mocha": "^8.4.0",
+        "chai-http": "^4.3.0"
+    }
+}
